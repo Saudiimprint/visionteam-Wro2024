@@ -51,9 +51,6 @@ All of our source codes are located in the src directory.
 ### Laser Cutter Machine
 
 - We used a laser cutter to create precise parts, such as engine gears.
-### RPLIDAR
-
--The RPLIDAR A1 is a low-cost 360-degree laser scanner for mapping and localization.
 
 ### Ultrasonic Sensor (HC-SR04)
 
@@ -62,9 +59,7 @@ All of our source codes are located in the src directory.
 
 - We used four batteries to provide a total of 12 volts.
   
-### Voltage Regulator
 
-- The voltage regulator maintains a stable output voltage for the robot's components.
 ### Switches
 
 - The robot includes two switches: one to power it on and off, and another to start the game.
