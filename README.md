@@ -32,9 +32,7 @@ All of our source codes are located in the src directory.
 ### HuskyLens
 
 - The HuskyLens is a vision sensor with seven built-in functions, including object tracking and line tracking. It connects via UART/I2C to the Arduino, allowing the robot to identify pillars on the game board.
-### 3D Printer
 
-- We designed the robot using Autodesk Inventor and printed parts with a 3D printer, including the cover and sensor boxes.
 ### DC Motor
 
 - DC motors allow the robot to move forward and backward, powered by direct current.
