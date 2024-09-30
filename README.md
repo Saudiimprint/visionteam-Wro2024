@@ -45,9 +45,7 @@ All of our source codes are located in the src directory.
 ### Pixy Camera
 
 -The Pixy camera is a complete vision system that detects colors and lines, essential for navigation.
-### Gyro Sensor (MPU6050)
 
--The MPU6050 sensor integrates a 3-axis accelerometer and gyroscope for measuring motion and orientation.
 ### Laser Cutter Machine
 
 - We used a laser cutter to create precise parts, such as engine gears.
