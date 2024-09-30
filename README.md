@@ -6,10 +6,12 @@ When the robot detects a blue line, the HuskyLens sends a command to the Arduino
 
 If the Pixy camera encounters a green column, it instructs the Arduino to turn left to navigate along the left side of the column. Conversely, if it detects a red column, it commands the robot to move forward a safe distance before turning right to follow the right side of the red column. This method continues until the robot completes three rounds, reading all blue lines three times before stopping at its starting point.
 
-#Using the Arduino Mega 2560
+# Using the Arduino Mega 2560
+
 We program the Arduino Mega using the Arduino IDE. To begin, we need to install the Arduino IDE software. Alternatively, we can use the Arduino Web Editor, which allows sketch uploads and code writing directly from a web browser (Google Chrome is recommended). The USB cable is essential for connecting the board to the computer, indicated by the green LED lighting up, confirming a successful connection.
 
-##Steps to Get Started with Arduino Mega
+## Steps to Get Started with Arduino Mega
+
 Open the code or sketch in the Arduino software.
 Select the board type.
 Choose the ATmega2560 microcontroller for the Arduino Mega, which is automatically selected by default.
