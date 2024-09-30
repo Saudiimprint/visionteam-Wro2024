@@ -1,0 +1,55 @@
+#include <RN.h>
+
+// Define the pin connected to the servo motor
+const int servoPin = 2;
+RN motor(8, 9, 10); // create a new instance of the RN class
+const int S0 = 3;
+const int S1 = 4;
+const int S2 = 5;
+const int S3 = 6;
+const int sensorOut = 7;
+// Create an instance of the RN library
+RN colorSensor(S0, S1, S2, S3, sensorOut);
+// Create an instance of the RN library
+RN servoController(servoPin);
+
+int count=0;
+int  programState=1;
+
+
+void setup() {
+  servoController.Servobegin();
+Serial.begin(9600);
+  colorSensor.begin();
+
+
+}
+
+void loop() {
+if( programState==1) {
+
+  servoController.setServoPosition(90);
+  motor.setMotorDirection(1); // rotate the motor in one direction
+  motor.setMotorSpeed(190); // set the motor speed to maximum
+
+ 
+  unsigned int blueValue = colorSensor.getIntensityB();
+
+         if(blueValue>315 and blueValue<450)
+     {   count=count+1;  
+         servoController.setServoPosition(60);  // Adjust the value as desired
+         delay(800);  // Wait for 1 seconds                                  
+     }
+
+ 
+
+                   }
+if(count==12)
+     {  
+
+ motor.stopMotor(); // stop the motor
+ programState=0;
+     }
+
+
+}
