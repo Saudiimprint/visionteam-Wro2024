@@ -16,7 +16,7 @@ The Program
 All of our source codes are located in the src directory.
 Components of the Robot
 1. Arduino Mega 2560
-![Arduino Mega 2560][]The Arduino Mega 2560 is a development board based on the Atmega2560 microcontroller, ideal for projects requiring more GPIO pins and memory. It features 16 analog pins and 54 digital I/O pins, with 15 serving as PWM outputs.
+![Arduino Mega 2560](https://www.arduino.cc/en/Guide/ArduinoMega2560/)The Arduino Mega 2560 is a development board based on the Atmega2560 microcontroller, ideal for projects requiring more GPIO pins and memory. It features 16 analog pins and 54 digital I/O pins, with 15 serving as PWM outputs.
 ### 2. HuskyLens![HuskyLens][]The HuskyLens is a vision sensor with seven built-in functions, including object tracking and line tracking. It connects via UART/I2C to the Arduino, allowing the robot to identify pillars on the game board 
 ### 3. 3D Printer![3D Printer][]We designed the robot using Autodesk Inventor and printed parts with a 3D printer, including the cover and sensor boxes.
 ### 4. DC Motor![DC Motor][]DC motors allow the robot to move forward and backward, powered by direct current.
