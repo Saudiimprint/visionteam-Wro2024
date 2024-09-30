@@ -1,3 +1,8 @@
+<img src="https://cdn.discordapp.com/attachments/1070762024700739585/1290342723475214407/welcome_to_our_Web_1.png?ex=66fc1cce&is=66facb4e&hm=34bd0c2efcad353c5618f2b426a18e6b87265232e19fd7f94a375837d801d0a3&;&center=true&size=25">
+
+
+
+
 # Strategy for Our Robot in Gameplay
 
 At the start of the game, the robot utilizes a balance sensor (Gyro) to reset its balance, ensuring stability while walking forward and turning. It employs three ultrasonic sensors located at the front to prevent collisions with walls or columns. When these sensors detect the robot moving away from a wall, they send commands to the Arduino to adjust its distance appropriately.
