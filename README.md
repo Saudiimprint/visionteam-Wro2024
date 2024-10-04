@@ -1,5 +1,5 @@
 
-<img src="https://readme-typing-svg.herokuapp.com/?lines=https://cdn.discordapp.com/attachments/1070762024700739585/1290342723475214407/welcome_to_our_Web_1.png?ex=6700ba0e&is=66ff688e&hm=df486755d818874074346f6dd20563b9c80539434547cb58d2e70b7f6ee54856&;&center=true&size=25">
+<img src="=https://cdn.discordapp.com/attachments/1070762024700739585/1290342723475214407/welcome_to_our_Web_1.png?ex=6700ba0e&is=66ff688e&hm=df486755d818874074346f6dd20563b9c80539434547cb58d2e70b7f6ee54856&;&center=true&size=25">
 
 
 
